@@ -1,0 +1,364 @@
+body{
+    background-color: #d2d2d2;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .carousel .carousel-item {
+    max-height:550px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    max-height:550px;}
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: orange !important;
+}
+
+.container {margin-top: 50px;}
+
+.links {margin-bottom: 10px;}
+
+.image {height: 2px;
+    width: 2px;
+}
+.product-grid9,.product-grid9 .product-image9{position:relative}
+.product-grid9{font-family:Poppins,sans-serif;z-index:1}
+.product-grid9 .product-image9 a{display:block}
+.product-grid9 .product-image9 img{width:100%;height:auto}
+.product-grid9 .pic-1{opacity:1;transition:all .5s ease-out 0s}
+.product-grid9:hover .pic-1{opacity:0}
+.product-grid9 .pic-2{position:absolute;top:0;left:0;opacity:0;transition:all .5s ease-out 0s}
+.product-grid9:hover .pic-2{opacity:1}
+.product-grid9 .product-full-view{color:#505050;background-color:#fff;font-size:16px;height:45px;width:45px;padding:18px;border-radius:100px 0 0;display:block;opacity:0;position:absolute;right:0;bottom:0;transition:all .3s ease 0s}
+.product-grid9 .product-full-view:hover{color:#c0392b}
+.product-grid9:hover .product-full-view{opacity:1}
+.product-grid9 .product-content{padding:12px 12px 0;overflow:hidden;position:relative}
+.product-content .rating{padding:0;margin:0 0 7px;list-style:none}
+.product-grid9 .rating li{font-size:12px;color:#ffd200;transition:all .3s ease 0s}
+.product-grid9 .rating li.disable{color:rgba(0,0,0,.2)}
+.product-grid9 .title{font-size:16px;font-weight:400;text-transform:capitalize;margin:0 0 3px;transition:all .3s ease 0s}
+.product-grid9 .title a{color:rgba(0,0,0,.5)}
+.product-grid9 .title a:hover{color:#c0392b}
+.product-grid9 .price{color:#000;font-size:17px;margin:0;display:block;transition:all .5s ease 0s}
+.product-grid9:hover .price{opacity:0}
+.product-grid9 .add-to-cart{display:block;color:#c0392b;font-weight:600;font-size:14px;opacity:0;position:absolute;left:10px;bottom:-20px;transition:all .5s ease 0s}
+.product-grid9:hover .add-to-cart{opacity:1;bottom:0}
+@media only screen and (max-width:990px){.product-grid9{margin-bottom:30px}
+.add-to-cart {color: brown;}
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .bg-grey {
+    background-color: orange;
+    }
+    
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+    
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+    
+    .pb-100 {
+        padding-bottom: 100px;
+    }
+    .pt-100 {
+        padding-top: 100px;
+    }
+    a{
+        text-decoration:none;
+    }
+    .section-title h4 {
+      font-size: 14px;
+      font-weight: 500;
+      color: #777;
+    }
+    .section-title h2 {
+        font-size: 32px;
+        text-transform: capitalize;
+        margin: 15px 0;
+        display: inline-block;
+        position: relative;
+        font-weight: 700;
+        padding-bottom: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .section-title p {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .black-bg .section-title h2, .black-bg .section-title h4, .black-bg .section-title p {
+      color:#fff
+    }
+    .section-title h2:before {
+      position: absolute;
+      content: "";
+      width: 150px;
+      height: 1px;
+      background-color: #777;
+      bottom: 0;
+      left: 50%;
+      margin-left: -75px;
+    }
+    .section-title h2:after {
+      position: absolute;
+      content: "";
+      width: 80px;
+      height: 3px;
+      background-color: orange;
+      border: darkblue;
+      bottom: -1px;
+      left: 50%;
+      margin-left: -40px;
+    }
+    
+    .section-title {
+      margin-bottom: 70px;
+    }
+    .single-price {
+        text-align: center;
+        padding: 30px;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    }
+    .price-title h4 {
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .price-tag {
+      margin: 30px 0;
+    }
+    .price-tag {
+        margin: 30px 0;
+        background-color: #fafafa;
+        color: #000;
+        padding: 10px 0;
+    }
+    .center.price-tag {
+        background-color: orange;
+        color:#fff
+    }
+    .price-tag h2 {
+        font-size: 45px;
+        font-weight: 600;
+        font-family: poppins;
+    }
+    .price-tag h2 span {
+      font-weight: 300;
+      font-size: 16px;
+      font-style: italic;
+    }
+    .price-item ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .price-item ul li {
+      font-size: 14px;
+      padding: 5px 0;
+      border-bottom: 1px dashed #eee;
+      margin: 5px 0;
+    }
+    .price-item ul li:last-child {
+      border-bottom: 0;
+    }
+    .single-price a {
+      margin-top: 15px;
+    }
+    a.box-btn {
+        background-color:  orange;
+        padding: 5px 20px;
+        display: inline-block;
+        color: #fff;
+        text-transform: capitalize;
+        border-radius: 3px;
+        font-size: 15px;
+        transition: .3s;
+    }
+    a.box-btn:hover, a.border-btn:hover {
+        background-color: orange;
+    }
+
+    .page-header{
+        text-align: center;    
+      }
+      
+      /*social buttons*/
+      .btn-social{
+        color: white;
+        opacity:0.9;
+      }
+      .btn-social:hover {
+        color: white;
+          opacity:1;
+      }
+      .btn-facebook {
+      background-color: brown;
+      opacity:0.9;
+      }
+      .btn-twitter {
+      background-color: brown;
+      opacity:0.9;
+      }
+      .btn-linkedin {
+      background-color: brown;
+      opacity:0.9;
+      }
+      .btn-github{
+        background-color:#000000;
+        opacity:0.9;
+      }
+      .btn-google {
+        background-color: orange;
+        opacity: 0.9;
+      }
+      .btn-stackoverflow{
+        background-color: #D38B28;
+        opacity: 0.9;
+      }
+      
+      /* resume stuff */
+      
+      .bs-callout {
+          -moz-border-bottom-colors: none;
+          -moz-border-left-colors: none;
+          -moz-border-right-colors: none;
+          -moz-border-top-colors: none;
+          border-color: #eee;
+          border-image: none;
+          border-radius: 3px;
+          border-style: solid;
+          border-width: 1px 1px 1px 5px;
+          margin-bottom: 5px;
+          padding: 20px;
+      }
+      .bs-callout:last-child {
+          margin-bottom: 0px;
+      }
+      .bs-callout h4 {
+          margin-bottom: 10px;
+          margin-top: 0;
+      }
+      
+      .bs-callout-danger {
+          border-left-color: orange;
+      }
+      
+      .bs-callout-danger h4{
+          color: orange;
+      }
+      
+      .resume .list-group-item:first-child, .resume .list-group-item:last-child{
+        border-radius:0;
+      }
+      
+      /*makes an anchor inactive(not clickable)*/
+      .inactive-link {
+         pointer-events: none;
+         cursor: default;
+      }
+      
+      .resume-heading .social-btns{
+        margin-top:15px;
+      }
+      .resume-heading .social-btns i.fa{
+        margin-left:-5px;
+      }
+      
+      
+      
+      @media (max-width: 992px) {
+        .resume-heading .social-btn-holder{
+          padding:5px;
+        }
+      }
+      
+      
+      
+      
+      
+
+p{
+    background-color: blue;
+    border: 1px solid bisque;
+}
+
+#Email{
+    background-color: blueviolet;
+}
+
+.unorderedList
+{
+    background-color: azure;
+    border: 2px solid yellow;
+    width:200px;
+}
+
+.imgSizing{
+    width: 200px;
+    height: 200px;
+}
+
+.imgHight{
+    width: 200px;
+    height: 200px;
+}
+.imgWidth{
+    width: 200px;
+    height: 200px;
+}
+
+.tableRow{
+    border:1px solid yellow
+}
+
+.tableData{
+    background-color: coral;
+    color:crimson
+}
+.menu {
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+/*padding: 10px ecc or padding-bottom
+

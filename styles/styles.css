@@ -586,5 +586,5 @@ fieldset[disabled] .btn-template-primary.active {
 
 .pull-right {
   position: absolute;
-  right: 100px;
+  right: 100px !important;
 }

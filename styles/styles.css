@@ -583,3 +583,8 @@ fieldset[disabled] .btn-template-primary.active {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
+
+.pull-right {
+  position: absolute;
+  right: 100px;
+}

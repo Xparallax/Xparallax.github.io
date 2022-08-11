@@ -591,6 +591,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .col-md-12{
   position: absolute;
-  right: 15% !important
+  left: -70% !important;
+  top: 73% ;
 }
 

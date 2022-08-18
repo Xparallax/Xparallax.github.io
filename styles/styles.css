@@ -602,10 +602,10 @@ fieldset[disabled] .btn-template-primary.active {
 .pull-left 
 {
   position: relative;
-  top:45%;
+  top:45% !important;
 }
 
 .pull-right{
   position: relative;
-  top:50%;
+  top:50% !important;
 }

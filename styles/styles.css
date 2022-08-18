@@ -598,3 +598,14 @@ fieldset[disabled] .btn-template-primary.active {
 .pic-2{
   height: 85% !important;
 }
+
+.pull-left 
+{
+  position: relative;
+  top:45%;
+}
+
+.pull-right{
+  position: relative;
+  top:50%;
+}

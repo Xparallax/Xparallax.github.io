@@ -607,7 +607,8 @@ fieldset[disabled] .btn-template-primary.active {
 
 .pull-right{
   position: relative;
-  top:50% !important;
+  top:40% !important;
+  right: 0%;
 }
 
 .col-md-24{
@@ -615,3 +616,4 @@ fieldset[disabled] .btn-template-primary.active {
   right: -40% !important;
   
 }
+

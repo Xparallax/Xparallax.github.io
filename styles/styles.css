@@ -612,6 +612,6 @@ fieldset[disabled] .btn-template-primary.active {
 
 .col-md-24{
   position: relative;
-  right: -40%;
+  right: -40% !important;
   
 }
